@@ -1,0 +1,21 @@
+#string slicing in python
+#length of the string using len() function
+
+name="Utkarsh"
+length=len(name)
+print("The length of the string",name,"is",length)
+
+#string slicing
+print(name[:])        #Will print the whole string
+print(name[0:4])      #Will print/Slice the string from i=0 to i=3
+print(name[1:])       #Will print From index 1 to the last index
+print(name[:5])       #Will rpint/Slice from i=0 to i=5
+                      #negative slicing:--
+print(name[-5:-2])    #Will print form i=len(name)-5 to i=len(name)-2
+print(name[:-3])      #Will print from i=0 to i=len(name)-3
+print(name[-1:])      #Will print from i=len(name)-1 to the end index
+
+#Loop Through String
+for i in name:
+  print(i)            #Will print single character at a time untill the end 
+                      #of the string
