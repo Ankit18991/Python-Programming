@@ -1,0 +1,31 @@
+print(".....................strings in Python..................")
+
+name="Utkarsh"
+print(name)
+
+#Multi-Liner string(Use three Single inverted comma)
+
+sentance='''My name is Utkarsh kumar and i am a BCA strudenr of 2nd semester in L.N. Mishra college of business management
+and I am trying to complete my graduation in software engineering by 2025.
+My dream is to get a job n the daddy company GooGle'''
+
+print("\nOur string Is Printed Below\n")
+print(sentance)
+
+b='''I am \"Utkarsh Kumar singh\" and i study mainly two subjects i.e.,
+programming and the computer Architecture'''
+print(b)
+
+string_Concatenation="Gaurav and Suraj"
+print("Two Friends of Utkarsh are " + string_Concatenation)
+
+#Looping through to print each character in the string no matter the length of the string
+
+print("Let\'s use for Loop for that purpose")
+for character in sentance:
+  print(character)
+
+print("The characters in the string \"b\" is prirnted below:\n")
+for character in b:
+  print(character)
+  
