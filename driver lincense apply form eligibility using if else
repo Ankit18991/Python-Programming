@@ -1,0 +1,21 @@
+str = "'''''''''''DRIVING LICENSE ISSUE CERTIFICATE APPROVAL......"
+
+a = int(input("Please enter your age: "))
+
+if (a == 18):
+  able=input("Are You Sure You Wanna Drive?: ")
+  if (able == "yes"):
+    print('''You will be allowed by the constitution of India to Fill Up the application form For Driving License ,\"Under the supervision of Parents/Guardian\""''')
+
+  if (able == "no"):
+    print("It\'s Your choice to give yourself an Year tiem to grow up a bit more. It\'s A Good One")
+
+  else:
+    print("You will be Given a month\'s time to consult with your parents about this")
+
+elif (a > 18):
+  print("You are allowed To Apply for the driving license. Use it wisely\n")
+
+else:
+  print("You are a minor. So, you are not allowed gto apply for the Driver\'s license.Your safety is our major concern")
+
