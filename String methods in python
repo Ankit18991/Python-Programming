@@ -1,0 +1,112 @@
+name=" My name "
+print(name.upper())
+print(name)
+
+print(name.lower())
+print(name)
+
+print(name.strip())
+
+str1="Hello Guys!! My name is Utkarsh !!!!"
+print(str1)
+print(str1.rstrip("!"))
+print(str1.rstrip("!!"))
+print(str1.rstrip("!!!"))
+
+#count function
+str2="To kill A Mockingbird"
+print(str2.count("k"))
+print(str2.count("i"))
+print(str2.count("gb"))
+
+#capitalize Function
+blog_heading="brave always Show Bravery"
+print(blog_heading.capitalize())
+
+#isupper() and islower()
+str1="MY LOVE"
+print(blog_heading.isupper())
+print(str1.isupper())
+print(str1.islower())
+
+#replace()
+str1='''I am a student of BCA second semester in L.N. Mishra College Of Business Management and\n i love to play with programming '''
+print(str1)
+print(str1.replace("love","Lauda"))
+
+#Split() function
+print(str1.split(" "))
+print(str1.split("\n"))
+
+#center() Function
+str="Welcome to The console!!!!"
+print(str)
+spacing=str.center(50)
+print(spacing)
+
+#endswith() and startswith() Function
+print(str.endswith("!!!"))
+print(str.endswith("!!!!!"))
+print(str.endswith("e!"))
+print(str.endswith("e!",6,23))
+
+print(str.startswith("!"))
+print(str.startswith("W"))
+print(str.startswith("w"))
+print(str.startswith("Welcome"))
+print(str.startswith("T",11))  #from i=11 till                                                      #last index
+#find() and index() function
+str1="He's name is Dan. He is an Honest man"
+print(str1.index("Da"))
+print(str1.index(" i"))
+#print(str1.index("Xor"))
+
+print(str1.find("Da"))
+print(str1.find(" i"))
+print(str1.find("Xor"))
+#returns -1 if the sub-string is not present
+
+#isalnum() and isalpha() Functions
+str1="Welcome To The Console"
+print(str1.isalnum())
+str2="WelcomeToTheConsole"
+print(str2.isalnum())
+print(str2.islower())
+
+str2="welcome to the console"
+print(str2)
+print(str2.islower())
+
+str1="WELCOME TO THE CONSOLE"
+print(str1)
+print(str1.isalpha())
+
+str3="WELCOMETOTHECONSOLE"
+print(str3)
+print(str3.isalpha())
+
+#isprintable() Function
+print(str2.isprintable())
+str4="I am lost\n and i need a way"
+print(str4)
+print(str4.isprintable())
+
+#istitle() function
+print(str4.istitle())
+#returns true onoy if first letter of each word #of the string is capitalised
+
+str="World Health Organisation0"
+print(str.istitle())
+
+#isspace() Function
+print(str.isspace())
+str1=" "
+print(str.isspace())
+str2="    "      #tab
+print(str2.isspace())
+
+#swapcase() Function
+#converta upper case to lower case amd #lower case to upper case
+
+print(str)
+print(str.swapcase())
