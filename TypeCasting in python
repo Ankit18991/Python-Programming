@@ -1,0 +1,17 @@
+#  implicit Typecasting
+#  in this type of typecasting, the lower order data type is converted automatically into the higher level data type with which we are perfroming the operations. Actually in python, data types are at different levels..
+
+a=98;
+b=87.69;
+
+print(a+b)
+#  here int type of a is converted into the float type of b before perfroming the operations with b
+
+# Explicit Typecasting
+# Converting the data type of the variables manually by the programmer as per the needs
+
+c=input("ENTER FIRST INPUT: ")
+d= input("ENTER THE SECOND INPUT: ")
+
+print("c + d=",str(c)+str(d))
+print("c + d=",int(c)+int(d))
