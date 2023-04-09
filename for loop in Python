@@ -1,0 +1,25 @@
+name = "Utkarsh"
+for letter in name:
+  print(letter,end=" ")
+
+list=["Redmi Note 5 pro","Real me mac 15","samsung tab A","Yono SBI Lite"]
+print(list)
+
+for company in list:
+  print(company)
+  for letter in company:
+    print(letter)
+
+#The use of range() function in Python
+for x in range(0, 6):
+  print(x)
+
+for y in range(0, 6):
+  print(y+1)
+
+for z in range(1,100, 10):
+  print(z)
+
+#The third argument is step, and it is used as an increament and decreament function in the Python Programming language
+
+ 
