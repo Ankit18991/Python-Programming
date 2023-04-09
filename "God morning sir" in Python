@@ -1,0 +1,19 @@
+import time
+name=input("Please Enter Your name: ")
+
+hour= int(time.strftime('%H'))
+
+if (6 <= hour <12):
+    print("Good Morning",name)
+    
+elif (12 <= hour <16):
+    print("Good After Noon",name)
+  
+    if (15 < hour < 16):
+        print("Good Early Everning ",name,"sir")
+
+if (16 <= hour < 19):
+    print("Good Evening",name,"sir")
+
+if (19 <= hour < 24):
+    print("Good Night",name,"sir")
